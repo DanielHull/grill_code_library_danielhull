@@ -1,0 +1,39 @@
+classdef cmg_analysis
+    % Purpose: Go through our data and analyze pressure traces
+    % This class is designed to analyze a cystometrogram data file in .mat file and produce
+    % desired values that will be defined below. 
+    % This will allow users 
+    % This will also read all of the files and their comments
+    % Likely going to look at Urination frequency
+    % Max pressure 
+    % Dynamic Compliance, bursting period duration, silent period duration
+    % and/or urine expulsion. Will see how to define some of these from the data set. Reading through
+    % a. Re-established micturition reflexes show differential activation patterns after lumbosacral ventral root avulsion injury and repair in rats
+    % b. A new technique for dynamic analysis of bladder compliance.
+    % c. External urethral sphincter activity in diabetic rats
+    % for a
+properties
+    
+    void_vol
+    residual_vol
+    pump_vol
+    fill_rate
+    
+    start_pump
+    stop_pump
+    trial_end
+    
+    bladder_contraction_starts
+    bladder_contraction_ends
+ 
+end
+methods
+    
+    function = 
+    end
+    
+end
+
+
+
+end
